@@ -1,3 +1,20 @@
-baseURL = "http://example.org/"
+baseURL = "http://danielms.me/"
 languageCode = "en-us"
-title = "My New Hugo Site"
+title = "DanielMS"
+
+[params]
+    description = "DanielMS static site"
+
+[author.social]
+    email = "danielms215@gmail.com""
+    facebook = "danielms215""
+    github = "danielms215""
+    instagram = "danielms215"
+    tiwtter = "danielms215"
+    linkedin = "linkedin.com/in/danielms215"
+
+[[menu.main]]
+    name = "Blog"
+    weight = -70
+    identifier = "danielms215"
+    url = "http://danielms.me"
